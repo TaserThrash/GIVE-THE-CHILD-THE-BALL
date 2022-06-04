@@ -66,6 +66,8 @@ function draw()
   background("#ffffff");
   ball.rotation=0;
   Engine.update(engine);
+  
+  text(frameCount/getFrameRate(),20,20);
 
   for(let i of walls){
     i.show();
