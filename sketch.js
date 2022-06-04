@@ -69,7 +69,7 @@ function draw()
   ball.rotation=0;
   Engine.update(engine);
   
-  text(frameCount/60,20,20);
+  text(frameCount/getFrameRate(),20,20);
 
   for(let i of walls){
     i.show();
