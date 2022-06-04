@@ -57,6 +57,8 @@ function setup() {
   World.add(world,ball);
 
   refresh(0);
+  
+  frameRate(60);
 
 }
 
